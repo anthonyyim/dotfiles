@@ -36,3 +36,5 @@ let g:airline_powerline_fonts=1
 set tabstop=4
 set shiftwidth=4
 set expandtab
+
+set mouse=a  " enable scroll with mouse wheel
