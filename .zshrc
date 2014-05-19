@@ -8,7 +8,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Aliases
-alias gg='git grep'
+alias grp='git grep'
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
