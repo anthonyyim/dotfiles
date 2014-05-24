@@ -20,8 +20,12 @@ colorscheme solarized
 set cursorline
 set number
 
-" ctrl-p (similar to Command-T)
+" ctrl-p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/]\.(git|hg|svn)$',
+  \ 'file': '\v\.(pyc)$',
+  \ }
 
 " set python tab to 4 spaces and other stuff for other languages
 autocmd FileType ruby,haml,eruby,yaml,sass,cucumber,javascript set ai sw=2 sts=2 et
