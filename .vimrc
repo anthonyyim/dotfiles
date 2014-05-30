@@ -42,3 +42,6 @@ set shiftwidth=4
 set expandtab
 
 set mouse=a  " enable scroll with mouse wheel
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
