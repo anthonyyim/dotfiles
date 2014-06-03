@@ -46,3 +46,10 @@ set mouse=a  " enable scroll with mouse wheel
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 let NERDTreeIgnore=[ '\.pyc$', '\.pyo$' ]
+
+" Key bindings
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
+map <c-h> <c-w>h
+
